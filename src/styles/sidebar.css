@@ -1,6 +1,6 @@
-#sidebar .sidebar-item{
-    list-style-type: none;
-    display: inline;
+#sidebar .sidebar-item {
+  list-style-type: none;
+  display: inline;
 }
 
 .sidebar-item-icon {
@@ -16,27 +16,31 @@
 
 .sidebar-item-icon:hover {
   color: rgb(221, 192, 192);
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
 }
 
 @media (min-width: 600px) {
-  
-    #sidebar {
-      width: 15vw;
-      top: 0;
-      left: 0;
-      padding-top: 5rem;
-      min-height: 100vh;
-      z-index: 999;
-      align-items: center;
-    }
-  
-    #sidebar .sidebar-item {
-      display: block;
-      padding-top: 1rem;
-    }
-  
-    .sidebar-item-icon {
-      font-size: 3rem;
-    }
+
+  #sidebar {
+    width: 15vw;
+    top: 0;
+    left: 0;
+    padding-top: 5rem;
+    min-height: 100vh;
+    z-index: 999;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
+  #sidebar .sidebar-item {
+    display: block;
+    padding-top: 1rem;
+  }
+
+  .sidebar-item-icon {
+    font-size: 3rem;
+  }
+}
