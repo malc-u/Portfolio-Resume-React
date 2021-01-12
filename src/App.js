@@ -1,4 +1,5 @@
 import Sidebar from "./components/Sidebar";
+import Homepage from "./pages/Homepage";
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <>   
       <div className="App container-fluid px-0">
         <Sidebar />
-
+        <Homepage />
       </div>
     </>
   );
