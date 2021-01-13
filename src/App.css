@@ -16,3 +16,12 @@
   padding: 0;
 }
 
+
+@media (min-width: 600px) {
+  .App {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+}
