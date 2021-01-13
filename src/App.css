@@ -1,0 +1,18 @@
+.App {
+  background-color: #00001a;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: block;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#page {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
