@@ -3,7 +3,7 @@ const PortfolioItemsData = [
         id: 1,
         name: "Fostoria",
         descripton: "Landscape photography page with webshop",
-        tools: "django, python"
+        tools: "django, python",
         itemUrl: "https://fostoria.herokuapp.com/",
         itemImg: "https://i.ibb.co/C1SkTgs/mockup.jpg",
     },
