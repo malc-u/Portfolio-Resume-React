@@ -11,9 +11,16 @@ const Portfolio = () => {
         </div>
         <div className="row py-3 justify-content-center" id="Portfolio">
             {PortfolioItemsData.map(
-                () => {
+                ({id, name, description, tools, itemUrl, itemImg}) => {
                     return(
-                        <PortfolioItem />
+                        <PortfolioItem 
+                        id={id}
+                        name={name}
+                        description={description}
+                        tools={tools}
+                        itemUrl={itemUrl}
+                        itemImg={itemImg}
+                        />
                     );
                 }
             )}
