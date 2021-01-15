@@ -6,10 +6,11 @@ import "../styles/portfolio.css";
 const Portfolio = () => {
     return(
         <>
-        <div className="row py-3 justify-content-center">
+        <hr className="hr"/>
+        <div className="row py-3 justify-content-center mx-0">
             <h4>Projects:</h4>
         </div>
-        <div className="row py-3 justify-content-center" id="Portfolio">
+        <div className="row py-3 justify-content-center mx-0" id="Portfolio">
             {PortfolioItemsData.map(
                 ({id, name, description, tools, itemUrl, itemImg}) => {
                     return(
