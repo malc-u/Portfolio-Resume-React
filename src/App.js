@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <>   
-      <div className="App container-fluid px-0">
+      <div className="App container-fluid">
         <Sidebar />
         <Homepage />
       </div>
