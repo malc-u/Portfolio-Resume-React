@@ -15,7 +15,9 @@ class Homepage extends React.Component {
               <h3>Junior Software Developer</h3>
             </div>
           </div>
+          <hr className="hr"/>
           <Portfolio />
+          <hr className="hr"/>
           <Credentials />
 
         </div>
