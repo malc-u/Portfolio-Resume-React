@@ -16,6 +16,10 @@
   padding: 0;
 }
 
+.hr {
+  border: 5px solid white;
+  border-radius: 5px;
+}
 
 @media (min-width: 600px) {
   .App {
