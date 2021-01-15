@@ -9,7 +9,15 @@ const Portfolio = () => {
         <div className="row py-3 justify-content-center">
             <h4>Projects:</h4>
         </div>
-       
+        <div className="row py-3 justify-content-center" id="Portfolio">
+            {PortfolioItemsData.map(
+                () => {
+                    return(
+                        <PortfolioItem />
+                    );
+                }
+            )}
+        </div>
         </>
     );
 }
