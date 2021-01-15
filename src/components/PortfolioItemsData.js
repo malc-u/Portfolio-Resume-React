@@ -44,7 +44,7 @@ const PortfolioItemsData = [
         name: "Portfolio",
         description: "My portfolio/ resume page",
         tools: "react",
-        itemUrl: "https://malc-u.github.io/Portfolio-Resume-React/",
+        itemUrl: "https://www.malc-u.com",
         itemImg: "https://i.ibb.co/XjswWXX/page.jpg",
     },
 
