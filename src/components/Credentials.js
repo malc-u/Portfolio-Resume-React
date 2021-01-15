@@ -6,10 +6,11 @@ import "../styles/credentials.css";
 const Credentials = () => {
     return(
         <>
-        <div className="row py-3 justify-content-center">
+        <hr className="hr"/>
+        <div className="row py-3 justify-content-center mx-0">
             <h4>Credentials:</h4>
         </div>
-        <div className="row py-3 justify-content-center" id="Credentials">
+        <div className="row py-3 justify-content-center mx-0" id="Credentials">
             
             {CredentailItemsData.map(
                     ({id, type, name, itemUrl, date, body}) => {
