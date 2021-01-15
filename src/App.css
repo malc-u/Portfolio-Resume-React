@@ -19,7 +19,8 @@
 
 .hr {
   border: 5px solid white;
-  border-radius: 5px;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 @media (min-width: 600px) {
@@ -28,5 +29,11 @@
     display: -ms-flexbox;
     display: flex;
   }
+
+  .hr {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+  
 
 }
