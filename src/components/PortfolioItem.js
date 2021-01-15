@@ -11,6 +11,11 @@ const PortfolioItem = ({id, name, description, tools, itemUrl, itemImg}) => {
                    </div>
                 </a>
             </div>
+            <div className="col-sm-12 py-2">
+                <p>{name}</p>
+                <h4>{description}</h4>
+                <p>Tools used: {tools}</p>
+            </div>
         </div>
         </>
     );
