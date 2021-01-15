@@ -39,6 +39,14 @@ const PortfolioItemsData = [
         itemUrl: "https://malc-u.github.io/petes-plumbing/",
         itemImg: "https://i.ibb.co/vV7knZM/page.jpg",
     },
+    {
+        id: 6,
+        name: "Portfolio",
+        description: "My portfolio/ resume page",
+        tools: "react",
+        itemUrl: "https://malc-u.github.io/Portfolio-Resume-React/",
+        itemImg: "https://i.ibb.co/XjswWXX/page.jpg",
+    },
 
 ]
 
